@@ -1,0 +1,40 @@
+#showcase {
+    color: #fff;
+    background-image: url('assets/img/foodappshowcase.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0, 20px;
+    position: fixed;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #CACACA;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {    
+    border: 1px solid #2780e3;
+    background: #2780e3;
+    color: #FFF;
+}
